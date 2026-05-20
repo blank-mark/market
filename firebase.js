@@ -5,13 +5,15 @@ import { getFirestore, collection, doc, addDoc, setDoc, getDoc, getDocs, updateD
 import { getStorage, ref, uploadBytes, getDownloadURL } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-storage.js";
 
 export const firebaseConfig = {
-  apiKey: "PASTE_YOUR_API_KEY",
-  authDomain: "PASTE_YOUR_AUTH_DOMAIN",
-  projectId: "PASTE_YOUR_PROJECT_ID",
-  storageBucket: "PASTE_YOUR_STORAGE_BUCKET",
-  messagingSenderId: "PASTE_YOUR_MESSAGING_SENDER_ID",
-  appId: "PASTE_YOUR_APP_ID"
+  apiKey: "AIzaSyApkEjZ_VZ2hvRSIrSrp3raWa5Qi49VLsk",
+  authDomain: "market-place-fake.firebaseapp.com",
+  projectId: "market-place-fake",
+  storageBucket: "market-place-fake.firebasestorage.app",
+  messagingSenderId: "467148878397",
+  appId: "1:467148878397:web:f8454f8d977d0292e47054",
+  measurementId: "G-Z9CYVBP16B"
 };
+
 
 export const app = initializeApp(firebaseConfig);
 export const auth = getAuth(app);
